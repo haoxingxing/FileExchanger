@@ -1,0 +1,21 @@
+#### 创建用户
+PUT http://localhost:8080/users/1 HTTP/1.1
+content-type: application/json
+
+{
+    "id": "1",
+    "name": "test3",
+    "age": 100
+}
+
+#### 获取所有用户
+
+GET http://localhost:8080/users/ HTTP/1.1
+
+### 获取apidoc
+
+GET http://localhost:8080/apidocs/
+
+
+#### 删除用户
+DELETE http://localhost:8080/users/test3 HTTP/1.1
